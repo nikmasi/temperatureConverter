@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author JA
- *
- */
-module project {
-}
