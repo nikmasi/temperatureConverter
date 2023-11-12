@@ -11,5 +11,5 @@ The Temperature Converter App is a minimalistic application developed in Java Sw
 
 ### Prerequisites
 - Java Development Kit (JDK) installed on your machine.
-- An Integrated Development Environment (IDE) like Eclipse or IntelliJ
+- An Integrated Development Environment (IDE) like Eclipse
 - jtattoo installed
