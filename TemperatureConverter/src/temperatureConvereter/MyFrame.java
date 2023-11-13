@@ -133,7 +133,7 @@ public class MyFrame extends JFrame implements ActionListener{
 	}
 	
 	public double CelsiusToRankine(double tem) {
-		return tem*1.8 +273.15;
+		return (tem+273.15)*1.8;
 	}
 	
 	public double KelvinToFahrenheit(double tem) {
@@ -149,14 +149,14 @@ public class MyFrame extends JFrame implements ActionListener{
 	}
 	
 	public double RankineToFahrenheit(double tem) {
-		return tem+459.67;
+		return tem-459.67;
 	}
 	
 	public double RankineToCelsius(double tem) {
-		return (tem-491.67)*1.8;
+		return tem*0.555555556-273.15;
 	}
 	
 	public double RankineToKelvin(double tem) {
-		return tem*1.8;
+		return tem*0.555555556;
 	}
 }
